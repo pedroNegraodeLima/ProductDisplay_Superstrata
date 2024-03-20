@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 32457e9cef66776448007c12edbf2041
+guid: 76bab697c6bcc654f9aaa7a27835969f
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -8,12 +8,12 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: chair Girafa - cavilha
-    second: {fileID: 2100000, guid: 261bbe9a40d40584b8c0c50fdd98ac56, type: 2}
+    second: {fileID: 2100000, guid: e6f51e43cee036b4d9089ae75e247223, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: chair Girafa_
-    second: {fileID: 2100000, guid: ff12adb259ca9444a8ebad5a8ddfcbba, type: 2}
+    second: {fileID: 2100000, guid: e6f51e43cee036b4d9089ae75e247223, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
