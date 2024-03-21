@@ -475,7 +475,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 104120667}
         m_TargetAssemblyTypeName: PrefabInstatiator, Assembly-CSharp
-        m_MethodName: ObjInstantiator
+        m_MethodName: ObjInstantiatorOne
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -865,7 +865,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d05462446c35654c9512de85b5f0634, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myPrefab: {fileID: 8518664567009375145, guid: ae83110f988c94b4699fffa918fb3fc0, type: 3}
+  myPrefabOne: {fileID: 919132149155446097, guid: 32457e9cef66776448007c12edbf2041, type: 3}
+  myPrefabTwo: {fileID: 2390733815704150327, guid: 6d6b32d46c88b3b469b1bc8e889618b1, type: 3}
+  myPrefabThree: {fileID: 8518664567009375145, guid: ae83110f988c94b4699fffa918fb3fc0, type: 3}
 --- !u!1 &104421339
 GameObject:
   m_ObjectHideFlags: 0
@@ -6792,7 +6794,19 @@ MonoBehaviour:
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 104120667}
+        m_TargetAssemblyTypeName: PrefabInstatiator, Assembly-CSharp
+        m_MethodName: ObjInstantiatorThree
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_IsOn: 0
 --- !u!1 &709380955
 GameObject:
@@ -21657,7 +21671,19 @@ MonoBehaviour:
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 104120667}
+        m_TargetAssemblyTypeName: PrefabInstatiator, Assembly-CSharp
+        m_MethodName: ObjInstantiatorTwo
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_IsOn: 0
 --- !u!1 &2141313928
 GameObject:
